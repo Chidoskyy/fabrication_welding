@@ -7,3 +7,12 @@ h3 {
 *{
     border: 1px solid blue
 }
+.title {
+    color: blue;
+}
+.uppercase {
+    text-transform: capitalize;
+}
+#article-title {
+    font-size:calc();
+}
