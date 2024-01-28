@@ -1,0 +1,27 @@
+p {
+    color: red;
+    font-size: 16px;
+    min-width: 200;
+    max-width: 800;
+}
+h3 {
+    color:blueviolet;
+}
+*{
+    border: 1px solid blue
+}
+.title {
+    color: blue;
+}
+.uppercase {
+    text-transform: capitalize;
+}
+#article-title {
+    font-size:calc();
+}
+#fabrication {
+    color:darkgreen;
+}
+h2.professionals {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; font-stretch: semi-condensed;
+}
