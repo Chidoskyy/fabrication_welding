@@ -1,27 +1,121 @@
+header {
+    background-color: rgb(185, 50, 86);
+    color: rgb(189, 219, 219);
+}
+
+h1 {
+    font-size: 29px;
+    margin-left: 18px;
+    padding: 10px;
+}
+
+#maan {
+    background-image: url(./fitting-components/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav li {
+    display: inline-block;
+    padding: 20px;
+    width: 100px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a{
+    color: black;
+}
+
+.bgp {
+    background-image: url(./fitting-components/images.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(250, 243, 245);
+}
+
+.purpose {
+    text-align: center;
+}
+
+#faw {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
 p {
-    color: red;
-    font-size: 16px;
-    min-width: 200;
-    max-width: 800;
+    text-decoration: solid;
+    text-align: center;
+    font-size: 20px;
 }
-h3 {
-    color:blueviolet;
+
+a {
+    color: rgb(214, 13, 87);
 }
-*{
-    border: 1px solid blue
+
+#pif {
+    text-align: center;
+    font-size: 30px; 
 }
-.title {
-    color: blue;
+
+.professionals ul {
+    font-size: 15px;
+    border: 2px solid rgba(17, 8, 8, 0.81);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkgray;
 }
-.uppercase {
-    text-transform: capitalize;
+
+.professionals ul li {
+    margin: 20px;
+    text-align: center;
 }
-#article-title {
-    font-size:calc();
+
+.dtf, .dtw, .dtqaqc {
+    text-align: center;
+    font-size: larger; 
 }
-#fabrication {
-    color:darkgreen;
+
+.fitter ul li {
+    background-color: burlywood; 
 }
-h2.professionals {
-    font-family: Verdana, Geneva, Tahoma, sans-serif; font-stretch: semi-condensed;
+
+.components ul li{
+    display:inline-block;
+    border: 3px solid rgb(4, 6, 6);
+    margin: 20px;
+    padding: 25px;
 }
+
+.equip {
+    text-align: center;
+    font-size: 43px;
+    margin-top: 81px;
+    background-color: lightskyblue;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: brown;
+}
+
+.foot a{
+    color: black;
+    font-size: 15px;
+    margin-left: 11px;
+}
+
+#two{
+    font-size: 15px;
+    margin-right: 11px;
+}
+
+
+
+
+
+
